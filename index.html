@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>Expense Tracker</h1>
+        </div>
+        <div class="main">
+            <h2>Balance: <span id="balance">50€</span></h2>
+        </div>
+        <div class="list-container">
+            <div>
+                <h3>Incomes / Expenses</h3>
+                <ul id="list">
+
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <form action="">
+            <label for="title">Title</label>
+            <input type="text" id="title" placeholder="Title">
+            <label for="amount">Amount</label>
+            <input type="number" id="amount" value=0>
+            <input type="submit" id="add" value="Confirm">
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
